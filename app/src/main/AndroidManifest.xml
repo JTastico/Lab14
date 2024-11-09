@@ -31,6 +31,12 @@
             android:exported="true"
             android:label="Segunda Actividad"
             android:theme="@style/Theme.Lab14" />
+        <!-- Nueva actividad para vista detallada de subasta-->
+        <activity
+            android:name=".ImagenVista"
+            android:exported="true"
+            android:label="Detalles de la Subasta"
+            android:theme="@style/Theme.Lab14" />
 
         <!-- Registro del proveedor del widget -->
         <receiver android:name=".widget.SimpleWidget"
